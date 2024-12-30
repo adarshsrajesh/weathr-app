@@ -1,25 +1,77 @@
 #root{
-    display: flex;
+   
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
-.head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 40px;
+.navbar{
+   background-color: #00BCF2;
+   margin-bottom: 50px;
+   color: white;
+   padding: 20px;
   
+  }
+  button{
+    color: white;
+    border: none;
+    padding:6px;
+    /* font-size: ; */
+    border-radius: 5px;
+
+
+    background-color: rgba(108, 119, 193, 0.475);
+  }
+  button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(74, 113, 181);
   }
   .searchbar{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
   }
   .searchbar input{
-    width: 90%;
+    /* color: white; */
+    border-radius: 0px ;
+    padding: 5px;
+    border: none;
+    background-color: white;
+    width: 80%;
+  }
+  .wrapper{
+    
+    width:900px;
+    height: 600px;
+    padding:40px;
+    background-color: #00BCF2;
+    display:flex;
+    flex-direction: column;
+    
+    
+  }
+  .incard{
+    display: flex;
+    flex-direction: column;
+  }
+  .w-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    /* width: 300px; */
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    /* background-color: #D4F6FF; */
+    color: white;
+
+  }
+  .smallcard{
+    width: 200px;
+    
   }
